@@ -1,0 +1,638 @@
+body{
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+}
+
+
+.header{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.portada {
+  color: white;
+  padding: 20px;
+  height: 500px;
+}
+
+.portada button{
+  margin-bottom: 70px;
+}
+
+.menu{
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.menu li{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover{
+  color: rgba(221, 92, 35, 0.94);
+  transition: 1.5s;
+  /* transform: scale(1.5); */
+  /* box-shadow: inset 0px -10px 0 rgba(221, 92, 35, 0.94) !important; */
+}
+
+.logotipo {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.titulo{
+  font-size: 70px;
+  font-family: 'Kaushan Script', cursive;
+  margin-bottom: 15px;
+  margin-top: 170px;
+}
+
+.titulo-page{
+  font-size: 24px;
+  margin-top: 10px;
+  color: #dd5727;
+  font-size: 45px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.title-a{
+  font-size: 24px;
+  margin-top: 0px;
+  font-family: 'Comfortaa', cursive;
+
+}
+
+.contenedor{
+  margin: auto;
+  max-width: 1024px;
+  position: relative;
+}
+
+.contenedor-header-view{
+  margin: auto;
+  max-width: 1024px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.background{
+  background-color: #466173;
+  background-image: url('../images/background3.jpg');
+  /*background-size: cover;*/
+}
+
+.button{
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background: #fd324e;
+  color: white;
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  background: linear-gradient(to left, #fe344e, #da5a23);
+  text-decoration: none;
+}
+
+.ministerios h2{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 45px;
+  color: rgba(221, 92, 35, 0.94);
+}
+
+.conocenos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.conocenos h2{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    margin: 0 10px 0 10px;
+}
+
+.contenedor-b{
+  margin: auto;
+  /*max-width: 1024px;*/
+  position: relative;
+  background-image: url('../images/background8.jpg');
+  background-size: cover;
+  padding: 20px;
+  height: 200px;
+}
+
+.contenedor-c {
+    margin: auto;
+    /* max-width: 1024px; */
+    position: relative;
+    background-image: url(../images/background7.jpg);
+    background-size: cover;
+    padding: 20px;
+    /* height: 200px; */
+}
+
+.contenedor-d{
+  margin: auto;
+  /*max-width: 1024px;*/
+  position: relative;
+  background-image: url('../images/background7.jpg');
+  background-size: cover;
+  padding: 20px;
+  height: 100%;
+}
+
+
+.conocenos-text{
+  width: 200px;
+}
+
+.conocenos .description {
+  margin-bottom: 15px;
+      margin-left: 30px;
+}
+
+.pastores h2{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 45px;
+  color: rgba(221, 92, 35, 0.94);
+}
+
+.pastor{
+    padding: 10px;
+  margin: 10px 10px 40px 10px;
+  /*overflow: hidden;*/
+  border-radius: 8px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-pastor-a{
+  padding-left: 20px;
+}
+
+.contenedor-pastor-a p{
+  text-align: justify;
+  padding-right: 50px;
+  font-family: 'Comfortaa', cursive;
+  line-height: 1.5;
+  text-indent: 2em;
+}
+
+.pastor img{
+    /* border-radius: 12px; */
+}
+
+.derecha{
+  float: right;
+  position: relative;
+}
+
+.sub-header{
+  background: #273B47;
+  height: 50px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub-header h2{
+  color: white;
+  padding-left: 30px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+}
+
+.header-right{
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  /*background: purple;*/
+  /*float: right;*/
+  /*position: absolute;*/
+  /*right: 0;*/
+  height: inherit;
+}
+.header-right ul {
+  margin: 0;
+  height: inherit;
+}
+
+.header-right ul {
+  display: flex;
+}
+.header-right li {
+  list-style: none;
+  /*margin: 0 10px;*/
+  color: white;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.header-right li:after{
+  content: "|";
+  display: inline-block;
+  /*margin:0 10px;*/
+}
+
+.header-right li:last-child:after{
+  display: none;
+}
+
+.header-right a {
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  cursor: default;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+
+  /*border-top: 5px solid transparent;*/
+}
+
+.header-right a.is-active {
+  box-shadow: inset 0 5px 0 #7dcd40;
+}
+
+.blog {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+.blog-items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* font-family: 'Comfortaa', cursive; */
+
+}
+
+.items-valores {
+    display: flex;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    justify-content: space-between;
+    font-family: 'Dancing Script', cursive;
+}
+
+.buttonAbout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulos h2{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+    margin: 0 10px 0 10px;
+    color: rgba(249, 247, 247, 0.94);/* rgba(221, 92, 35, 0.94); */
+}
+
+.titulos-d h2{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    margin: 0 10px 0 10px;
+    color: rgba(239, 236, 235, 0.94);
+}
+
+.titulos-d h3{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+/*     font-family: 'Kaushan Script', cursive; */
+    font-size: 30px;
+    margin: 0 10px 5px 10px;
+  color: rgba(239, 236, 235, 0.7);
+}
+
+.blog-items h3 {
+  font-weight: 600;
+  margin: 10px 0 15px;
+}
+
+.item-blog {
+  width: 300px;
+}
+
+.item-blog-1 {
+  width: 200px;
+}
+
+.blog-items-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
+
+.blog-items-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px 40px 0px;
+    text-align: center;
+}
+
+.sombreando-item:hover{
+  /* background: rgba(93, 90, 90, 0.24); */
+}
+
+.item-blog-2 {
+  width: 200px;
+}
+
+.item-blog-3 {
+  width: 300px;
+}
+
+.item-blog-3 img{
+  /*border-radius: 50%;*/
+}
+
+.description-3 h3{
+  font-size: 25px;
+}
+
+.description-3 h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+    margin: 0px 0px 20px 0px;
+    color: rgba(221, 92, 35, 0.94);
+}
+
+.item-blog-2 img{
+  border-radius: 50%;
+}
+
+
+.autor img{
+    transition-duration: 1s;
+    /* transition-delay: 1s; */
+    transition-timing-function: ease;
+}
+
+.autor img:hover{
+      width: 60px;
+      height: 60px;
+}
+
+.autor a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.item-blog .description {
+  margin-bottom: 15px;
+}
+
+
+.description-valores h3:hover{
+  color: rgba(221, 92, 35, 0.94);
+  transition: 1.5s;
+  transform: scale(1.5);
+}
+
+.item-blog .description-v p, ul{
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.item-blog .description-v h3{
+    display: flex;
+    justify-content: center;
+}
+
+.paginador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.paginador ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.paginador li {
+  background: #eaeaea;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid gray;
+  margin: 0 5px;
+}
+.paginador li.selected {
+  border-color: transparent;
+  background: white;
+}
+
+.paginador a {
+  padding: 0 10px;
+  text-decoration: none;
+  display: block;
+  height: inherit;
+}
+
+
+.autor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  border-top: 1px solid gray;
+  padding-top: 15px;
+}
+
+.texto-articulo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto-articulo p{
+  font-size: .9375rem;
+  margin-top: 0px;
+}
+
+.autor img {
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.autor p {
+  margin: 0;
+}
+
+
+.footer{
+  background-image: url('../images/background9.jpg');
+  padding: 50px 10px;
+}
+
+.redes{
+  height: 50px;
+  /* border: 1px solid red; */
+      display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    margin: 0px 120px 0px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+
+.redes a{
+  padding: 0px 20px 0px;
+  text-decoration: none;
+  color: white;
+}
+
+.redes-pastores a{
+  text-decoration: none;
+  color: #1b8b96;
+}
+
+.redes-pastores i{
+    padding: 10px;
+}
+
+.redes i:hover{
+  transition: .3s;
+  animation-name: rebote;
+  animation-duration: .5s;
+  animation-iteration-count: 3;
+  color: #dd5727;
+}
+
+    @keyframes rebote{
+      
+      from{ /* 0% */
+        transform: translateY(0);
+
+      }to{ /* 100% */
+        transform: translateY(10px) scale(1, .9);
+        
+      }
+    }
+
+
+
+/* .fa-border-2 {
+    padding: .5em .5em .5em .5em;
+    border: solid .05em #fff;
+    border-radius: 50%;
+} */
+
+.contacto{
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto img{
+  display: flex;
+  justify-content: center;
+}
+
+.contacto strong{
+  display: block;
+}
+
+.contacto a{
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0px
+}
+
+.footer .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario{
+  display: flex;
+  width: 400px;
+  color: white;
+  padding: 50px, 10px
+}
+
+.colum1, .colum2{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.colum1{
+  margin-right: 15px;
+}
+
+.colum2{
+    align-items: flex-start;
+}
+
+.colum2 .button{
+  margin-top: 15px;
+}
+
+.intereses label{
+  font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+.sexo{
+  margin-top: 10px;
+}
+
+.titulo-footer {
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 15px;
+    color: #dd5727;
+    margin-top: 0;
+}
+
+
+
